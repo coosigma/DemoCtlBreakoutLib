@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace ctlBreakoutLib
 {
-    class House : Figure
+    class Room : Figure
     {
-        public House(Object o, Vector p, Size s, Color c) : base(o, p, s, c)
+        public Room(Object o, Vector p, Size s, Color c) : base(o, p, s, c)
         {
         }
         public override void Draw(Graphics g)
